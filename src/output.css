@@ -554,12 +554,47 @@ video {
   display: none;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
+.m-16 {
+  margin: 4rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .-mt-4 {
   margin-top: -1rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -618,8 +653,20 @@ video {
   width: 350px;
 }
 
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-end {
@@ -628,6 +675,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -646,6 +697,10 @@ video {
   gap: 2rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .rounded-sm {
   border-radius: 0.125rem;
 }
@@ -656,6 +711,11 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-custome-brightBlue {
